@@ -1,0 +1,77 @@
+.masthead {
+  height: 50vh;
+  background-image: url('../assets/bg/BG-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+
+.heroes_about2{
+  height: auto;
+  min-height:35vw;
+  background-image: url("../assets/bg/BG-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-shadow{
+box-shadow: -10px 10px 20px 1px rgb(157, 157, 157);
+}
+   
+/* The actual timeline (the vertical ruler) */
+.timeline-line1{
+  border-right: 5px solid #ffc200;
+}
+.timeline-line2{
+  border-left: 5px solid #ffc200;
+}
+
+.timeline-line2::before{
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='grey' class='bi bi-circle-fill' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8'/%3E%3C/svg%3E");
+  position: absolute;
+  margin-left: -30px;
+}
+
+@media screen and (min-width: 992px) {
+  
+
+
+    .masthead {
+      height: 80vh;
+      min-height: 500px;
+      margin-top: -10vw;
+    }
+
+  
+     .map{
+        margin-top: -10vw;
+        margin-bottom: -15vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;     
+    }
+     .Full_width {
+        display: flex;
+        align-items: center;
+        min-height: 400px;
+    }
+    .Full_width .set, .Full_width .duble_Set {
+        margin-top:10vh;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .duble_Set img {
+        width: 100%;
+    }
+    .set{
+        padding:0 30vh 0vh;
+        margin:0 0vh 0vh 5vh;
+        width: 0%;
+    }     
+   
+}
+     
+ 

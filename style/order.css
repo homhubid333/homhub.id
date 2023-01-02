@@ -1,0 +1,43 @@
+body{
+    background: rgb(255,206,0);
+    background: linear-gradient(45deg, rgba(255,206,0,1) 31%, rgba(255,163,0,1) 86%);    
+}
+    
+
+  /* .login {
+    min-height: 20vh;
+  }
+   */
+  .bg-image {
+    background-image: url('../assets/bg/BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  .pesanpad{
+    padding: 100px;
+      }
+  @media screen and (min-width: 992px) {
+    .order{
+      padding: 100vh;
+    }
+
+    .order-mtop{
+      margin-top: -60px;
+    }
+
+    .pesanpad{
+      padding: 100px;
+        }
+  }

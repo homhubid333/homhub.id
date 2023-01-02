@@ -1,0 +1,23 @@
+body {
+    background-image: url("../assets/bg/BG-Mitra.png");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    
+@media screen and (min-width: 992px) {
+    /* .masthead1 {
+    background-image: url("../assets/bg/BG-Mitra.png");
+    height:120vh; 
+    margin-bottom: -15vh;
+    width: auto;
+    position: relative;
+    top: -100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } */
+
+}

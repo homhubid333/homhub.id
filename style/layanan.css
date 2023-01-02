@@ -1,0 +1,48 @@
+.mastheadabout{
+  height: 50vh;
+  background-image: url('../assets/bg/AboutBG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh;
+     min-height: 500px;
+    margin-top: -10vw;
+}
+
+.mastheadservice {
+    background: rgb(255,206,0);
+    background: linear-gradient(45deg, rgba(255,206,0,1) 31%, rgba(255,163,0,1) 86%);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10vh 15vw;
+  }
+
+
+.layanan{
+    padding: 5vw;
+}
+
+.nav-pills-custom .nav-link.active {
+    background: #ffc200;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.nav-pills-custom{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.nav-link-custom{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    width: 15vw;
+    font-size: large;
+}
+
+.tab-content .tab-pane {
+    padding: 0vw 2vw;
+}
